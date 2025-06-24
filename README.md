@@ -6,13 +6,14 @@ Follow the steps below to add a new token：
 2) change the JSON file `tokenlist.json`, adding such as: (PLEASE DO NOT REMOVE EXISITING TOKENS)
 ```
 {
-      "address": "TLa2f6VPqDgRE67v1736s7bJ8Ray5wYjU7",
-      "symbol": "WIN",
-      "name": "WINkLink",
-      "decimals": 6,
-      "logoURI": "https://coin.top/profile_images/JKtJTydD_400x400.jpg",
-      "homepage": "https://winklink.org/",
-      "MarketCapLink": "https://coinmarketcap.com/currencies/wink/",
+      "address": "TGz8gG7rn5n129Jci5AvABaEHHJCamLr4B",
+      "symbol": "USDT",
+      "name": "TETHER TRON USD",
+      "decimals": 18,
+      "logoURI": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAACTpElEQVR4nOy9d7xlx1Xn+11Ve+8Tbu...
+",
+      "homepage": "https://tronscan.org/TGz8gG7rn5n129Jci5AvABaEHHJCamLr4B",
+      "MarketCapLink": "https://coinmarketcap.com/currencies/tethertronusd/",
       "existingMarkets": [
           {
               "source": "Binance",
@@ -38,13 +39,14 @@ Follow the steps below to add a new token：
     ]
 }
 ```
-* `address`[Required]: your token address.
-* `symbol`[Required]: your token symbol.
-* `name`[Required]: your token name.
-* `logoURI`[Required]: the logo URI of your token.
+* `address`[Required]: TGz8gG7rn5n129Jci5AvABaEHHJCamLr4B
+* `symbol`[Required]: USDT.
+* `name`[Required]: Tether tron usd.
+* `logoURI`[Required]: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAACTpElEQVR4nOy9d7xlx1Xn+11Ve+8Tbu...
+
 * `homepage`[Required]: the home page of your token.
 * `MarketCapLink`[Optional]: the coinmarketcap or coingecko link for your token.
-* `existingMarkets`[Required]: where to trade with your token.
+* `existingMarkets`[Required]: WEB3.
 3) Submit PR with the changed JSON file.
 
 
