@@ -1,17 +1,48 @@
 {
-    "address": "TW63guytLiXrGU9KrVgduoHRXaubaUkn3T",
-    "symbol": "Huobi 2nd Space",
-    "name": "Huobi 2nd Space Club",
-    "decimals": 6,
-    "logoURI": "https://hbg-prod-fed-public.hbfile.net/nuwa/static/prod/56020150-434a-46af-9eaa-fe1ed404c12b.gif",
-    "homepage": "https://www.huobi.com/",
-    "existingMarkets": [
-        {
-            "source": "ApeNFT",
-            "pairs": [
-                "Huobi 2nd Space/USDT",
-                "Huobi 2nd Space/TRX"
-            ]
-        }
-  ]
+      "address": "TGz8gG7rn5n129Jci5AvABaEHHJCamLr4B",
+      "symbol": "USDT",
+      "name": "TETHER TRON USD",
+      "decimals": 18,
+      "logoURI": https://www.dropbox.com/t/XJaAHKPqKvG2jSPE
+",
+      "homepage": "https://tronscan.org/TGz8gG7rn5n129Jci5AvABaEHHJCamLr4B",
+      "MarketCapLink": "https://coinmarketcap.com/currencies/tethertronusd/",
+      "address": "TLa2f6VPqDgRE67v1736s7bJ8Ray5wYjU7",
+      "symbol": "WIN",
+      "name": "WINkLink",
+      "decimals": 6,
+      "logoURI": https://www.dropbox.com/t/XJaAHKPqKvG2jSPE
+      "homepage": https://tronscan.org/TGz8gG7rn5n129Jci5AvABaEHHJCamLr4B
+      "MarketCapLink": n/a
+      "existingMarkets": [
+          {
+              "source": "Binance",
+              "pairs": [
+                  "TRX/USDT",
+                                ]
+              
+          }
+    ]
 }
+address[Required]: TGz8gG7rn5n129Jci5AvABaEHHJCamLr4B
+symbol[Required]: USDT
+name[Required]: TETHER TRON USDT
+logoURI[Required]: https://www.dropbox.com/t/XJaAHKPqKvG2jSPE
+address[Required]: TGz8gG7rn5n129Jci5AvABaEHHJCamLr4B
+
+symbol[Required]: USDT.
+
+name[Required]: Tether Tron USDT.
+
+logoURI[Required]: https://www.dropbox.com/t/XJaAHKPqKvG2jSPE
+
+homepage Required]: https://tronscan.org/TGz8gG7rn5n129Jci5AvABaEHHJCamLr4B
+homepage[Required]: https://tronscan.org/TGz8gG7rn5n129Jci5AvABaEHHJCamLr4B
+
+MarketCapLink Optional]: the coinmarketcap or coingecko link for your token
+MarketCapLink[Optional]: the coinmarketcap or coingecko link for your token.
+
+existingMarkets[Required]: OKX, BINANCE.
+existingMarkets[Required]: WEB3.
+
+Submit PR with the changed JSON file.
